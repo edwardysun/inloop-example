@@ -8,9 +8,9 @@ Make sure to head to [the InLoop Connect dashboard](https://connect.inloop.to/da
 
 Run `npm start` on the project root to start the server on port 3001.
 
-### Run the client: `cd client && npm start`
+### Run the client: In another terminal window or tab, run `cd client && npm start`
 
-Run `cd client && npm start` to start the React client on port 3000. It should pop up your browser and navigate to `localhost:3000`. If that doesn't happen, just open any browser and head to `http://localhost:3000` directly.
+Run `cd client && npm start` (in a new terminal window or tab) to start the React client on port 3000. It should pop up your browser and navigate to `localhost:3000`. If that doesn't happen, just open any browser and head to `http://localhost:3000` directly.
 
 ### Try it out!
 
