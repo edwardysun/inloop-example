@@ -1,4 +1,4 @@
-# Getting Started with the InLoop Example
+# Getting Started with the InLoop Connect Example
 
 ## Setup
 
