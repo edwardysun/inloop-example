@@ -4,6 +4,9 @@
 
 Make sure to head to [the InLoop Connect dashboard](https://connect.inloop.to/dashboard) and set up your API Key. Then, after cloning this repo, make sure to put in your API key in `/server/index.js` on the line after `REPLACE WITH YOUR API SECRET KEY HERE`.
 
+### Run `npm install` in the `/client` directory
+Installs some of the client dependencies
+
 ### Run the server: `npm start`
 
 Run `npm start` on the project root to start the server on port 3001.
