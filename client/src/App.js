@@ -55,9 +55,16 @@ export default function NFTVerify() {
     <>
       {tokens && wallet ? (
         <>
-          <h1>Tokens owned by {wallet}</h1>
+          <h1>{wallet}</h1>
           {tokens.map((token) => (
             <>
+              <p>
+                <strong>
+                  {token.quantity > 0
+                    ? "This wallet HAS the Orange DAO Gem"
+                    : "This wallet does NOT have the Orange DAO Gem."}
+                </strong>
+              </p>
               <p>Name: {token.contract_name}</p>
               <p>Contract Address: {token.contract_address}</p>
               <p>Quantity Owned: {token.quantity}</p>

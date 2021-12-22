@@ -6,7 +6,7 @@ const cors = require("cors");
 const PORT = process.env.PORT || 3001;
 
 // REPLACE WITH YOUR API SECRET KEY HERE
-const API_SECRET_KEY = "XXXXXXXXXX";
+const API_SECRET_KEY = "64d5051c-43cd-4d4e-9298-03bf76868f80";
 
 const app = express();
 
@@ -25,7 +25,6 @@ app.listen(PORT, () => {
 
 // Take authorization code and exchange for permanent user token
 app.post("/api/user-token", async function (req, res) {
-  console.log("testing", req.body);
   const response = await axios({
     method: "POST",
     url: "https://connect.inloop.to/api/v1/oauth/token",
