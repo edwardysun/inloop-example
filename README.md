@@ -13,7 +13,7 @@ Installs some of the client dependencies
 
 ### Run the client: In another terminal window or tab, run `npm start` (while inside the `/client` directory)
 
-Run `cd client && npm start` (in a new terminal window or tab) to start the React client on port 3000. It should pop up your browser and navigate to `localhost:3000`. If that doesn't happen, just open any browser and head to `http://localhost:3000` directly.
+Run `npm start` while inside the `client` directory (in a new terminal window or tab) to start the React client on port 3000. It should pop up your browser and navigate to `localhost:3000`. If that doesn't happen, just open any browser and head to `http://localhost:3000` directly.
 
 ### Try it out!
 
