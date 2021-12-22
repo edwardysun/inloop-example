@@ -8,7 +8,7 @@ Make sure to head to [the InLoop Connect dashboard](https://connect.inloop.to/da
 
 Run `npm start` on the project root to start the server on port 3001.
 
-### cd into `/client` and run `npm install`
+### `cd client` and run `npm install`
 Installs some of the client dependencies
 
 ### Run the client: In another terminal window or tab, run `npm start` (while inside the `/client` directory)
